@@ -1,0 +1,156 @@
+{% extends "quizapp/base.html" %}
+{% load tz %}
+
+{% block content %}
+<style>
+  .results-container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 80px 24px;
+    font-family: 'Poppins', sans-serif;
+    color: #2c2f4a;
+  }
+
+  .results-heading {
+    font-size: 2.6rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 60px;
+    color: #1f2235;
+  }
+
+  .stats-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+  }
+
+  .stat-card {
+    flex: 1;
+    min-width: 240px;
+    background: #ffffff;
+    border: 1px solid #e5e7f0;
+    border-radius: 16px;
+    padding: 24px 28px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.035);
+    transition: 0.3s ease;
+  }
+
+  .stat-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.06);
+  }
+
+  .stat-label {
+    font-size: 1.05rem;
+    color: #6c6f85;
+    margin-bottom: 10px;
+  }
+
+  .stat-value {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #5864f5;
+  }
+
+  .attempts-section {
+    margin-top: 60px;
+  }
+
+  .attempts-heading {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 24px;
+    color: #1f2235;
+    text-align: center;
+  }
+
+  .attempt-list {
+    list-style: none;
+    padding: 0;
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
+  .attempt-item {
+    display: flex;
+    justify-content: space-between;
+    background: #fdfdff;
+    border: 1px solid #e5e7f0;
+    padding: 16px 20px;
+    margin-bottom: 12px;
+    border-radius: 12px;
+    font-size: 0.97rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.02);
+  }
+
+  .attempt-item strong {
+    color: #5864f5;
+  }
+
+  .no-data {
+    text-align: center;
+    color: #999;
+    margin-top: 20px;
+    font-size: 0.95rem;
+  }
+
+  .btn-return {
+    display: inline-block;
+    margin: 40px auto 0;
+    text-align: center;
+    padding: 12px 36px;
+    font-size: 1rem;
+    border-radius: 30px;
+    background-color: #f4f5ff;
+    color: #5864f5;
+    border: 2px solid #5864f5;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+
+  .btn-return:hover {
+    background-color: #e5e8ff;
+  }
+</style>
+
+<div class="results-container">
+  <h2 class="results-heading">Your Quiz Summary</h2>
+
+  <div class="stats-grid">
+    <div class="stat-card">
+      <div class="stat-label">Average Score</div>
+      <div class="stat-value">{{ average|floatformat:1 }}/5</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Highest Score</div>
+      <div class="stat-value">{{ highest }}/5</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Lowest Score</div>
+      <div class="stat-value">{{ lowest }}/5</div>
+    </div>
+  </div>
+
+  <div class="attempts-section">
+    <h3 class="attempts-heading">Quiz Attempt History</h3>
+    {% if results %}
+      <ul class="attempt-list">
+        {% for result in results %}
+          <li class="attempt-item">
+            <span>{{ result.timestamp|timezone:"America/Toronto"|date:"M d, Y - h:i A" }}</span>
+            <span><strong>{{ result.score }}/5</strong> ({{ result.percentage }}%)</span>
+          </li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      <p class="no-data">No attempts recorded yet. Try taking a quiz to see your progress!</p>
+    {% endif %}
+  </div>
+
+  <a href="{% url 'quiz-home' %}" class="btn-return">← Back to Home</a>
+</div>
+{% endblock %}

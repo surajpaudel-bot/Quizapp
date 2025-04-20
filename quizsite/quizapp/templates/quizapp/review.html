@@ -1,0 +1,104 @@
+{% extends "quizapp/base.html" %}
+{% load custom_tags %}
+
+{% block content %}
+<style>
+  h2 {
+    font-weight: 600;
+    color: #2f2f41;
+    margin-bottom: 40px;
+  }
+
+  .card {
+    border: none;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+  }
+
+  .card-body {
+    padding: 10px;
+    text-align: left;
+  }
+
+  .card-body p {
+    font-size: 1rem;
+    color: #2f2f41;
+  }
+
+  .list-group-item {
+    font-size: 1rem;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    background-color: #f8f9fa;
+  }
+
+  .list-group-item-info {
+    background-color: #e0e8ff;
+    font-weight: 500;
+  }
+
+  .text-success {
+    font-size: 0.95rem;
+  }
+
+  .btn-success {
+    padding: 12px 30px;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 30px;
+    transition: background-color 0.3s;
+  }
+
+  .btn-success:hover {
+    background-color: #3ca24d;
+  }
+
+  form {
+    max-width: 800px;
+    margin: auto;
+  }
+
+  @media (max-width: 576px) {
+    .card-body {
+      padding: 16px;
+    }
+
+    .btn-success {
+      width: 100%;
+    }
+  }
+</style>
+
+<h2 class="mb-4">Review Your Answers</h2>
+
+<form method="post">
+  {% csrf_token %}
+
+  {% for question in questions %}
+    <div class="card mb-4">
+      <div class="card-body">
+        <p><strong>Q{{ forloop.counter }}: {{ question.question_text }}</strong></p>
+
+        <ul class="list-group">
+          {% with selected=user_answers|get_item:question.id %}
+            {% for i in "1234" %}
+              <li class="list-group-item {% if selected == i %}list-group-item-info{% endif %}">
+                {{ question|get_option:i }}
+                {% if selected == i %}
+                  <span class="text-success fw-bold ms-2">✔ Your selected answer</span>
+                {% endif %}
+              </li>
+            {% endfor %}
+          {% endwith %}
+        </ul>
+      </div>
+    </div>
+  {% endfor %}
+
+  <div class="text-center">
+    <button type="submit" class="btn btn-success">Final Submit</button>
+  </div>
+</form>
+{% endblock %}

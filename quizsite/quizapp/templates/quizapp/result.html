@@ -1,0 +1,104 @@
+{% extends "quizapp/base.html" %}
+{% load static %}
+{% block content %}
+<style>
+  .result-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px 20px;
+  }
+
+  .result-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #7a82f2;
+    margin-bottom: 10px;
+  }
+
+  .result-subtitle {
+    font-size: 1.1rem;
+    color: #aaa;
+    margin-bottom: 40px;
+  }
+
+  .score-display {
+    font-size: 1.1rem;
+    color: #2f2f41;
+  }
+
+  .score-value {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #7a82f2;
+  }
+
+  .action-buttons {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .btn-primary-custom {
+    background-color: #7a82f2;
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    border-radius: 30px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    text-decoration: none;
+  }
+
+  .btn-primary-custom:hover {
+    background-color: #5f68e0;
+  }
+
+  .btn-outline-custom {
+    border: 2px solid #7a82f2;
+    color: #7a82f2;
+    background: white;
+    padding: 12px 32px;
+    border-radius: 30px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    text-decoration: none;
+  }
+
+  .btn-outline-custom:hover {
+    background-color: #f0f0ff;
+  }
+
+.illustration {
+  width: 200px;
+  height: auto;
+  opacity: 0.95;
+  mix-blend-mode: multiply;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: block;
+  margin: 0 auto;
+}
+</style>
+
+<div class="result-container">
+  <h1 class="result-title">Congratulation</h1>
+  <p class="result-subtitle">You completed the quiz!</p>
+
+<img src="{% static '/images/img2.png' %}" alt="Result Illustration" class="illustration" width="250">
+
+
+  <p class="score-display">Your score:</p>
+  <p class="score-value">{{ score }} / 5</p>
+  <p class="score-display">Percentage: {{ percentage }}%</p>
+  <p class="mt-3"><strong>{{ message }}</strong></p>
+
+  <div class="action-buttons">
+    {% if score <= 2 %}
+      <a href="{% url 'start-quiz' %}" class="btn-primary-custom">Retry Quiz</a>
+    {% endif %}
+    <a href="{% url 'quiz-home' %}" class="btn-outline-custom">Back to Home</a>
+  </div>
+</div>
+{% endblock %}

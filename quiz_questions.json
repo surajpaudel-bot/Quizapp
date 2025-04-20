@@ -1,0 +1,442 @@
+[
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which device forwards data packets between computer networks?",
+            "option1": "Switch",
+            "option2": "Router",
+            "option3": "Modem",
+            "option4": "Hub",
+            "correct_option": "2"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which protocol is used to send emails?",
+            "option1": "FTP",
+            "option2": "SMTP",
+            "option3": "HTTP",
+            "option4": "SNMP",
+            "correct_option": "2"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which of the following is a backend programming language?",
+            "option1": "CSS",
+            "option2": "JavaScript",
+            "option3": "Python",
+            "option4": "HTML",
+            "correct_option": "3"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "What is GitHub primarily used for?",
+            "option1": "Hosting videos",
+            "option2": "Version control and code collaboration",
+            "option3": "Designing websites",
+            "option4": "Storing documents",
+            "correct_option": "2"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which tool is commonly used for network troubleshooting?",
+            "option1": "Photoshop",
+            "option2": "Notepad++",
+            "option3": "Ping",
+            "option4": "Excel",
+            "correct_option": "3"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "What is the purpose of an API?",
+            "option1": "To access application settings",
+            "option2": "To update software drivers",
+            "option3": "To allow applications to communicate with each other",
+            "option4": "To format a hard drive",
+            "correct_option": "3"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which company developed the Android operating system?",
+            "option1": "Apple",
+            "option2": "Samsung",
+            "option3": "Google",
+            "option4": "Microsoft",
+            "correct_option": "3"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "What is the purpose of DNS?",
+            "option1": "To encrypt web traffic",
+            "option2": "To translate domain names into IP addresses",
+            "option3": "To store website content",
+            "option4": "To increase internet speed",
+            "correct_option": "2"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which of the following is an interpreted language?",
+            "option1": "C++",
+            "option2": "Java",
+            "option3": "Python",
+            "option4": "Assembly",
+            "correct_option": "3"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which technology is used to secure communication over the internet?",
+            "option1": "SSL/TLS",
+            "option2": "HTTP",
+            "option3": "FTP",
+            "option4": "SMTP",
+            "correct_option": "1"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which language is known for its use in web development alongside HTML and CSS?",
+            "option1": "C++",
+            "option2": "Python",
+            "option3": "JavaScript",
+            "option4": "Java",
+            "correct_option": "3"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which programming language is used for developing Android apps?",
+            "option1": "Swift",
+            "option2": "Java",
+            "option3": "C#",
+            "option4": "Go",
+            "correct_option": "2"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which of these is a statically typed language?",
+            "option1": "Python",
+            "option2": "JavaScript",
+            "option3": "Java",
+            "option4": "Ruby",
+            "correct_option": "3"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which language is primarily used for iOS app development?",
+            "option1": "Swift",
+            "option2": "Kotlin",
+            "option3": "C++",
+            "option4": "PHP",
+            "correct_option": "1"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which of the following is a compiled language?",
+            "option1": "JavaScript",
+            "option2": "Python",
+            "option3": "HTML",
+            "option4": "C",
+            "correct_option": "4"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "What does 'OOP' stand for in programming?",
+            "option1": "Object-Oriented Programming",
+            "option2": "Ordered Output Processing",
+            "option3": "Open Operation Protocol",
+            "option4": "Object Operation Platform",
+            "correct_option": "1"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which of the following is not a programming paradigm?",
+            "option1": "Procedural",
+            "option2": "Object-Oriented",
+            "option3": "Functional",
+            "option4": "Directive",
+            "correct_option": "4"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which programming language is known for its use in artificial intelligence?",
+            "option1": "Java",
+            "option2": "Python",
+            "option3": "C++",
+            "option4": "PHP",
+            "correct_option": "2"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which programming language is used with the Django framework?",
+            "option1": "PHP",
+            "option2": "Ruby",
+            "option3": "Python",
+            "option4": "C#",
+            "correct_option": "3"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which of the following languages is used in data analysis and machine learning?",
+            "option1": "JavaScript",
+            "option2": "R",
+            "option3": "C",
+            "option4": "HTML",
+            "correct_option": "2"
+        }
+    },
+{
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which language is commonly used for statistical computing?",
+            "option1": "Python",
+            "option2": "R",
+            "option3": "C++",
+            "option4": "Java",
+            "correct_option": "2"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "What is the file extension for Java source files?",
+            "option1": ".java",
+            "option2": ".js",
+            "option3": ".class",
+            "option4": ".jav",
+            "correct_option": "1"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which language was developed by Microsoft for Windows applications?",
+            "option1": "Python",
+            "option2": "VB.NET",
+            "option3": "Swift",
+            "option4": "PHP",
+            "correct_option": "2"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "What symbol is used for comments in Python?",
+            "option1": "//",
+            "option2": "/* */",
+            "option3": "#",
+            "option4": "<!-- -->",
+            "correct_option": "3"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which programming language is used to write smart contracts on Ethereum?",
+            "option1": "Rust",
+            "option2": "Solidity",
+            "option3": "Go",
+            "option4": "Scala",
+            "correct_option": "2"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "What does the 'print()' function do in most programming languages?",
+            "option1": "Prints documents",
+            "option2": "Displays output on the screen",
+            "option3": "Saves data to a file",
+            "option4": "Formats a hard drive",
+            "correct_option": "2"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which language is known for being lightweight and used in embedded systems?",
+            "option1": "Python",
+            "option2": "Ruby",
+            "option3": "C",
+            "option4": "JavaScript",
+            "correct_option": "3"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which keyword is used to define a function in Python?",
+            "option1": "function",
+            "option2": "fun",
+            "option3": "define",
+            "option4": "def",
+            "correct_option": "4"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which language runs on the Java Virtual Machine (JVM)?",
+            "option1": "Kotlin",
+            "option2": "C",
+            "option3": "Python",
+            "option4": "C++",
+            "correct_option": "1"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "What is the purpose of 'return' in a function?",
+            "option1": "To stop the program",
+            "option2": "To call another function",
+            "option3": "To end the loop",
+            "option4": "To send a value back to the caller",
+            "correct_option": "4"
+        }
+    },
+{
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which language is often used for system-level programming?",
+            "option1": "Python",
+            "option2": "C",
+            "option3": "Ruby",
+            "option4": "JavaScript",
+            "correct_option": "2"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "What keyword is used to declare a constant in Java?",
+            "option1": "final",
+            "option2": "const",
+            "option3": "static",
+            "option4": "define",
+            "correct_option": "1"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which of these is a dynamically typed language?",
+            "option1": "Java",
+            "option2": "C++",
+            "option3": "Python",
+            "option4": "C",
+            "correct_option": "3"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "In which language is the 'echo' statement used?",
+            "option1": "C",
+            "option2": "Python",
+            "option3": "PHP",
+            "option4": "Java",
+            "correct_option": "3"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "What does the 'break' statement do in a loop?",
+            "option1": "Repeats the loop",
+            "option2": "Ends the loop immediately",
+            "option3": "Skips to the next iteration",
+            "option4": "Restarts the program",
+            "correct_option": "2"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which programming language uses indentation to define code blocks?",
+            "option1": "Java",
+            "option2": "C++",
+            "option3": "Python",
+            "option4": "C#",
+            "correct_option": "3"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "What is the output type of the 'input()' function in Python?",
+            "option1": "Integer",
+            "option2": "Float",
+            "option3": "String",
+            "option4": "Boolean",
+            "correct_option": "3"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which of these is a valid loop structure in C?",
+            "option1": "loop",
+            "option2": "for",
+            "option3": "repeat",
+            "option4": "foreach",
+            "correct_option": "2"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which keyword is used to create a class in Python?",
+            "option1": "class",
+            "option2": "object",
+            "option3": "define",
+            "option4": "struct",
+            "correct_option": "1"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which language was designed by Bjarne Stroustrup?",
+            "option1": "Python",
+            "option2": "C++",
+            "option3": "Java",
+            "option4": "Ruby",
+            "correct_option": "2"
+        }
+    }
+]

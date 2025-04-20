@@ -1,0 +1,552 @@
+[
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "What does CPU stand for?",
+            "option1": "Central Processing Unit",
+            "option2": "Central Performance Unit",
+            "option3": "Control Processing Unit",
+            "option4": "Computer Power Unit",
+            "correct_option": "1"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which company developed the Windows operating system?",
+            "option1": "Apple",
+            "option2": "Google",
+            "option3": "Microsoft",
+            "option4": "IBM",
+            "correct_option": "3"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "What is the name of the web browser developed by Google?",
+            "option1": "Firefox",
+            "option2": "Edge",
+            "option3": "Safari",
+            "option4": "Chrome",
+            "correct_option": "4"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which language is primarily used for web development?",
+            "option1": "HTML",
+            "option2": "Python",
+            "option3": "C++",
+            "option4": "Java",
+            "correct_option": "1"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "What does RAM stand for?",
+            "option1": "Read Access Memory",
+            "option2": "Random Access Memory",
+            "option3": "Rapid Access Memory",
+            "option4": "Run All Memory",
+            "correct_option": "2"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which of the following is a type of software?",
+            "option1": "Mouse",
+            "option2": "Keyboard",
+            "option3": "Operating System",
+            "option4": "Monitor",
+            "correct_option": "3"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "What is Python?",
+            "option1": "A snake",
+            "option2": "A programming language",
+            "option3": "A game",
+            "option4": "An app",
+            "correct_option": "2"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which of these is not an operating system?",
+            "option1": "Linux",
+            "option2": "Windows",
+            "option3": "MacOS",
+            "option4": "Google",
+            "correct_option": "4"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "What does URL stand for?",
+            "option1": "Uniform Resource Locator",
+            "option2": "Universal Resource Link",
+            "option3": "Universal Reset Link",
+            "option4": "Unified Resource Locator",
+            "correct_option": "1"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which one is a version control system?",
+            "option1": "Git",
+            "option2": "Node.js",
+            "option3": "React",
+            "option4": "Linux",
+            "correct_option": "1"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "What does HTTP stand for?",
+            "option1": "HyperText Transfer Protocol",
+            "option2": "HyperText Transmission Program",
+            "option3": "HighText Transfer Protocol",
+            "option4": "HyperText Transfer Program",
+            "correct_option": "1"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which programming language is known for its use in data science?",
+            "option1": "C",
+            "option2": "Python",
+            "option3": "Java",
+            "option4": "HTML",
+            "correct_option": "2"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "What is the primary function of an operating system?",
+            "option1": "Compiling code",
+            "option2": "Managing hardware and software resources",
+            "option3": "Designing web pages",
+            "option4": "Creating spreadsheets",
+            "correct_option": "2"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which HTML tag is used to create a hyperlink?",
+            "option1": "<link>",
+            "option2": "<a>",
+            "option3": "<href>",
+            "option4": "<hyperlink>",
+            "correct_option": "2"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which database is a NoSQL database?",
+            "option1": "MySQL",
+            "option2": "PostgreSQL",
+            "option3": "MongoDB",
+            "option4": "Oracle",
+            "correct_option": "3"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "What is the extension of a Python file?",
+            "option1": ".java",
+            "option2": ".html",
+            "option3": ".py",
+            "option4": ".exe",
+            "correct_option": "3"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which of the following is a frontend framework?",
+            "option1": "Laravel",
+            "option2": "Django",
+            "option3": "React",
+            "option4": "Flask",
+            "correct_option": "3"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which of the following is not a programming language?",
+            "option1": "Ruby",
+            "option2": "HTML",
+            "option3": "Python",
+            "option4": "JavaScript",
+            "correct_option": "2"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "What does CSS stand for?",
+            "option1": "Cascading Style Sheets",
+            "option2": "Creative Style Sheets",
+            "option3": "Computer Style Sheets",
+            "option4": "Colorful Style Sheets",
+            "correct_option": "1"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which one is a cloud computing platform?",
+            "option1": "GitHub",
+            "option2": "Bitbucket",
+            "option3": "AWS",
+            "option4": "React",
+            "correct_option": "3"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "What does CSS stand for? (variant)",
+            "option1": "Cascading Style Sheets",
+            "option2": "Creative Style Sheets",
+            "option3": "Computer Style Sheets",
+            "option4": "Colorful Style Sheets",
+            "correct_option": "1"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "What is the extension of a Python file? (variant)",
+            "option1": ".java",
+            "option2": ".html",
+            "option3": ".py",
+            "option4": ".exe",
+            "correct_option": "3"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "What does CSS stand for? (variant)",
+            "option1": "Cascading Style Sheets",
+            "option2": "Creative Style Sheets",
+            "option3": "Computer Style Sheets",
+            "option4": "Colorful Style Sheets",
+            "correct_option": "1"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which database is a NoSQL database? (variant)",
+            "option1": "MySQL",
+            "option2": "PostgreSQL",
+            "option3": "MongoDB",
+            "option4": "Oracle",
+            "correct_option": "3"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "What is the extension of a Python file? (variant)",
+            "option1": ".java",
+            "option2": ".html",
+            "option3": ".py",
+            "option4": ".exe",
+            "correct_option": "3"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which of the following is not a programming language? (variant)",
+            "option1": "Ruby",
+            "option2": "HTML",
+            "option3": "Python",
+            "option4": "JavaScript",
+            "correct_option": "2"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which of the following is a frontend framework? (variant)",
+            "option1": "Laravel",
+            "option2": "Django",
+            "option3": "React",
+            "option4": "Flask",
+            "correct_option": "3"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which one is a cloud computing platform? (variant)",
+            "option1": "GitHub",
+            "option2": "Bitbucket",
+            "option3": "AWS",
+            "option4": "React",
+            "correct_option": "3"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "What does HTTP stand for? (variant)",
+            "option1": "HyperText Transfer Protocol",
+            "option2": "HyperText Transmission Program",
+            "option3": "HighText Transfer Protocol",
+            "option4": "HyperText Transfer Program",
+            "correct_option": "1"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which of the following is a frontend framework? (variant)",
+            "option1": "Laravel",
+            "option2": "Django",
+            "option3": "React",
+            "option4": "Flask",
+            "correct_option": "3"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "What is the extension of a Python file? (variant)",
+            "option1": ".java",
+            "option2": ".html",
+            "option3": ".py",
+            "option4": ".exe",
+            "correct_option": "3"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "What is the primary function of an operating system? (variant)",
+            "option1": "Compiling code",
+            "option2": "Managing hardware and software resources",
+            "option3": "Designing web pages",
+            "option4": "Creating spreadsheets",
+            "correct_option": "2"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which HTML tag is used to create a hyperlink? (variant)",
+            "option1": "<link>",
+            "option2": "<a>",
+            "option3": "<href>",
+            "option4": "<hyperlink>",
+            "correct_option": "2"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "What is the extension of a Python file? (variant)",
+            "option1": ".java",
+            "option2": ".html",
+            "option3": ".py",
+            "option4": ".exe",
+            "correct_option": "3"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which database is a NoSQL database? (variant)",
+            "option1": "MySQL",
+            "option2": "PostgreSQL",
+            "option3": "MongoDB",
+            "option4": "Oracle",
+            "correct_option": "3"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which one is a cloud computing platform? (variant)",
+            "option1": "GitHub",
+            "option2": "Bitbucket",
+            "option3": "AWS",
+            "option4": "React",
+            "correct_option": "3"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which database is a NoSQL database? (variant)",
+            "option1": "MySQL",
+            "option2": "PostgreSQL",
+            "option3": "MongoDB",
+            "option4": "Oracle",
+            "correct_option": "3"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "What does CSS stand for? (variant)",
+            "option1": "Cascading Style Sheets",
+            "option2": "Creative Style Sheets",
+            "option3": "Computer Style Sheets",
+            "option4": "Colorful Style Sheets",
+            "correct_option": "1"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "What is the extension of a Python file? (variant)",
+            "option1": ".java",
+            "option2": ".html",
+            "option3": ".py",
+            "option4": ".exe",
+            "correct_option": "3"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "What is the primary function of an operating system? (variant)",
+            "option1": "Compiling code",
+            "option2": "Managing hardware and software resources",
+            "option3": "Designing web pages",
+            "option4": "Creating spreadsheets",
+            "correct_option": "2"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which database is a NoSQL database? (variant)",
+            "option1": "MySQL",
+            "option2": "PostgreSQL",
+            "option3": "MongoDB",
+            "option4": "Oracle",
+            "correct_option": "3"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which HTML tag is used to create a hyperlink? (variant)",
+            "option1": "<link>",
+            "option2": "<a>",
+            "option3": "<href>",
+            "option4": "<hyperlink>",
+            "correct_option": "2"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which of the following is not a programming language? (variant)",
+            "option1": "Ruby",
+            "option2": "HTML",
+            "option3": "Python",
+            "option4": "JavaScript",
+            "correct_option": "2"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "What is the primary function of an operating system? (variant)",
+            "option1": "Compiling code",
+            "option2": "Managing hardware and software resources",
+            "option3": "Designing web pages",
+            "option4": "Creating spreadsheets",
+            "correct_option": "2"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "What does HTTP stand for? (variant)",
+            "option1": "HyperText Transfer Protocol",
+            "option2": "HyperText Transmission Program",
+            "option3": "HighText Transfer Protocol",
+            "option4": "HyperText Transfer Program",
+            "correct_option": "1"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which one is a cloud computing platform? (variant)",
+            "option1": "GitHub",
+            "option2": "Bitbucket",
+            "option3": "AWS",
+            "option4": "React",
+            "correct_option": "3"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "What is the primary function of an operating system? (variant)",
+            "option1": "Compiling code",
+            "option2": "Managing hardware and software resources",
+            "option3": "Designing web pages",
+            "option4": "Creating spreadsheets",
+            "correct_option": "2"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "What does HTTP stand for? (variant)",
+            "option1": "HyperText Transfer Protocol",
+            "option2": "HyperText Transmission Program",
+            "option3": "HighText Transfer Protocol",
+            "option4": "HyperText Transfer Program",
+            "correct_option": "1"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "What does CSS stand for? (variant)",
+            "option1": "Cascading Style Sheets",
+            "option2": "Creative Style Sheets",
+            "option3": "Computer Style Sheets",
+            "option4": "Colorful Style Sheets",
+            "correct_option": "1"
+        }
+    },
+    {
+        "model": "quizapp.question",
+        "fields": {
+            "question_text": "Which of the following is not a programming language? (variant)",
+            "option1": "Ruby",
+            "option2": "HTML",
+            "option3": "Python",
+            "option4": "JavaScript",
+            "correct_option": "2"
+        }
+    }
+]

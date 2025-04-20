@@ -1,0 +1,163 @@
+{% extends "quizapp/base.html" %}
+
+{% block content %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<style>
+  .dashboard-container {
+    text-align: center;
+    padding: 60px 20px;
+  }
+
+  .dashboard-heading {
+    font-size: 2rem;
+    color: #2f2f41;
+    font-weight: 600;
+    margin-bottom: 40px;
+  }
+
+  .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+
+  .dashboard-btn {
+    padding: 12px 32px;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .dashboard-btn.start {
+    background-color: #7a82f2;
+  }
+
+  .dashboard-btn.start:hover {
+    background-color: #5f68e0;
+    transform: translateY(-2px);
+  }
+
+  .dashboard-btn.results {
+    background-color: #00b8d4;
+  }
+
+  .dashboard-btn.results:hover {
+    background-color: #009bb3;
+    transform: translateY(-2px);
+  }
+
+  .category-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #2f2f41;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 0.5rem;
+  }
+
+  .category-subtitle {
+    font-size: 1.1rem;
+    color: #666;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .category-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+
+  .category-card {
+    text-decoration: none;
+    color: white;
+    width: 350px;
+    gap:30px;
+    padding: 30px 20px;
+    border-radius: 25px;
+    text-align: center;
+    font-weight: 500;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .category-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  .category-card .icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  .category-card h4 {
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  .category-card.purple {
+    background: #7e3ff2;
+  }
+
+  .category-card.blue {
+    background: #00a8ff;
+  }
+
+  .category-card.pink {
+    background: #f14e95;
+  }
+
+  .category-card.orange {
+    background: #ff6f3c;
+  }
+</style>
+
+<!-- Dashboard Buttons -->
+<div class="dashboard-container">
+  <h2 class="dashboard-heading">Welcome, {{ request.user.username }}!</h2>
+  <div class="button-group">
+    <a class="dashboard-btn start" href="{% url 'start-quiz' %}">Start Quiz</a>
+    <a class="dashboard-btn results" href="{% url 'my-results' %}">My Results</a>
+  </div>
+</div>
+
+<!-- Category Cards Section -->
+<p class="category-subtitle">These are the topics your quiz will be based on. Ready to test yourself?</p>
+
+<div class="category-container">
+  <a href="#" class="category-card purple">
+    <div class="icon"><i class="fab fa-html5"></i></div>
+    <h4>HTML</h4>
+    <p>Test your knowledge of HTML structure and tags.</p>
+  </a>
+
+  <a href="#" class="category-card blue">
+    <div class="icon"><i class="fab fa-python"></i></div>
+    <h4>Python</h4>
+    <p>Think you're a Python pro? Try questions on logic and code!</p>
+  </a>
+
+  <a href="#" class="category-card pink">
+    <i class="fas fa-code"></i>
+    <h4>Java</h4>
+    <p>Test your knowledge of Java syntax, classes, and objects.</p>
+  </a>
+
+  <a href="#" class="category-card orange">
+    <i class="fab fa-js"></i>
+    <h4>Java Script</h4>
+    <p>Ready to script? Dive into JavaScript logic and browser magic.</p>
+  </a>
+</div>
+
+{% endblock %}
